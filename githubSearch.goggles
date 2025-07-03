@@ -1,0 +1,10 @@
+! name: GitHub Search
+! description: Prioritize searching through GitHub repositories, pages, and code.
+! public: true
+! author: developer-focused search
+$discard
+$boost=1,site=github.com
+$boost=1,site=www.github.com
+$boost=1,site=github.io
+$boost=1,site=gist.github.com
+$boost=1,site=raw.githubusercontent.com
